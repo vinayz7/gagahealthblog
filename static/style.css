@@ -4,4 +4,11 @@
     background-size: cover;
     height: 100vh;
 }
+body {
+    background-image: url('/static/media/new_bg.jpg'); /* Adjust the path */
+    background-size: cover;       /* Makes sure the image covers the whole page */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-position: center;  /* Centers the image */
+}
+
 
