@@ -27,3 +27,5 @@ EXPOSE 8000
 ENV PYTHONUNBUFFERED=1
 
 # Run migrations, create superuser (if needed), and start Django server
+
+CMD ["sh", "-c", "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"]
