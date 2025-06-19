@@ -4,3 +4,9 @@
     background-size: cover;
     height: 100vh;
 }
+body {
+    background-image: url('/static/media/new_bg.jpg'); 
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;  
+}
